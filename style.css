@@ -301,3 +301,15 @@ div div p a {
   background: transparent;
   border: none;
 }
+
+.btn-refresh-game:hover {
+  background-color: #706e6e;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.resultPic {
+  width: 300px;
+  height: 250px;
+  left: 561px;
+}
