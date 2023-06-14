@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.411);
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  height: 140vh;
+  background-image: url(assets/main-bg.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 20%;
+}
+
+section nav div a {
+  font-size: 24px;
+}
+
+div div ul li {
+  font-size: 12px;
+}
+
+.btn-playnow {
+  background-color: #ffb548;
+  width: 30%;
+  height: 100%;
+  color: #000000;
+}
+
+.btn-playnow:hover {
+  background-color: #000000;
+}
+
+.story {
+  padding-top: 30%;
+  font-size: 12px;
+}
+
+div div a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-item {
+  display: flex;
+  background-image: url(assets/the-games-bg.jpg);
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+
+.carousel-pic {
+  margin-top: 5%;
+}
+
+.bg-carousel {
+  width: 858px;
+  height: 477px;
+  left: 453px;
+  top: 318.7;
+}
+
+.game-features {
+  display: flex;
+  padding-top: 12%;
+  width: 100%;
+  height: 130vh;
+  background-image: url(assets/features.jpg);
+  background-size: cover;
+}
+
+.text-content {
+  color: white;
+  font-size: 24px;
+}
+
+.text-contentGame {
+  color: #ffb548;
+  font-size: 24px;
+}
+
+.requirements {
+  display: flex;
+  width: 100%;
+  height: 130vh;
+  background-image: url(assets/requirements.png);
+  background-size: cover;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding-top: 3%;
+}
+
+.text-requirements {
+  font-size: 56px;
+}
+
+.table-descripsion {
+  font-size: 24px;
+  color: #ffb548;
+}
+
+.caption-requirements {
+  color: white;
+  font-size: 18px;
+}
+
+.img-topScores {
+  display: flex;
+  background-image: url(assets/top-score-bg.png);
+  background-size: cover;
+  width: 100%;
+  padding-top: 20%;
+}
+
+.container-fluid {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.img-card {
+  width: 65.27px;
+  height: 65.27px;
+  left: 879.92;
+  top: 170.19px;
+}
+
+.card {
+  background-color: #3a3a3a;
+}
+
+.caption-card {
+  color: #ffb548;
+  font-size: 24px;
+}
+
+.bg-newsLetter {
+  display: flex;
+  background-image: url(assets/newsletter.png);
+  background-size: cover;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.text-news {
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-subscribe {
+  background-color: #ffb548;
+  width: 30%;
+  color: #000000;
+}
+
+.form-floating {
+  background-color: #3a3a3a;
+}
+
+.text-footer {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+div div p a {
+  text-decoration: none;
+  color: white;
+}
+
+.line-separator {
+  width: 83%;
+  height: 1px;
+  margin-top: 20px;
+  background-color: rgb(81, 86, 90);
+}
+
+.content-game {
+  padding-top: 2%;
+}
+
+.navbar-game {
+  background-color: #9c835f;
+}
+
+.batu-img {
+  width: 108px;
+  height: 82px;
+  left: 372px;
+  background: transparent;
+}
+
+.kertas-img {
+  width: 105px;
+  height: 140px;
+  left: 388px;
+}
+
+.gunting-img {
+  width: 124px;
+  height: 150px;
+  left: 359px;
+}
+
+.refresh-img {
+  width: 77px;
+  height: 71px;
+  left: 681px;
+}
+
+.bg-game {
+  background-color: #9c835f;
+}
+
+.text-versus {
+  font-family: "Open Sans", sans-serif;
+}
+
+.player1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+}
+
+.com {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+}
+
+.btn-batu-player1 {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+}
+
+.btn-batu-player1:hover {
+  background-color: #d3cece;
+  border-radius: 10px;
+}
+
+.btn-kertas-player1 {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+}
+
+.btn-kertas-player1:hover {
+  background-color: #d3cece;
+  border-radius: 10px;
+}
+
+.btn-gunting-player1 {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+}
+
+.btn-gunting-player1:hover {
+  background-color: #d3cece;
+  border-radius: 10px;
+}
+
+.btn-batu-com {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+}
+
+.btn-batu-com:hover {
+  background-color: #d3cece;
+  border-radius: 10px;
+}
+
+.btn-kertas-com {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+}
+
+.btn-kertas-com:hover {
+  background-color: #d3cece;
+  border-radius: 10px;
+}
+
+.btn-gunting-com {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+}
+
+.btn-gunting-com:hover {
+  background-color: #d3cece;
+  border-radius: 10px;
+}
+
+.btn-refresh-game {
+  background: transparent;
+  border: none;
+}
